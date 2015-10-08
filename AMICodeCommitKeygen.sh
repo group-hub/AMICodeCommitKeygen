@@ -19,9 +19,9 @@ echo "Enter the SSH Key ID from IAM:"
 read key_id
 
 # Update the config
-sed -i -e "s/[YOUR_SSH_KEY_ID_FROM_IAM]/$key_id/g" config
+sed -i -e "s/IAM/$key_id/g" config
 
 # Remove strict host key checking
 echo "    StrictHostKeyChecking no" >> /etc/ssh/ssh_config
 
-printf "\n\nConfiguration complete. You can now create the AMI."
+printf "\n\nConfiguration complete. You can now create the AMI.\n\n"
