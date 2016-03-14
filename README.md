@@ -7,7 +7,7 @@ This script has been specifically written to run on a Ubuntu 14.04 LTS x64 EC2 i
 To Run
 
         sudo apt-get -y install git-core
-        git clone git://github.com/whealmedia/AMICodeCommitKeygen.git
+        git clone git://github.com/group-hub/AMICodeCommitKeygen.git
         cd AMICodeCommitKeygen
         bash AMICodeCommitKeygen.sh
 
